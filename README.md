@@ -1,2 +1,0 @@
-# NewPetPalace
-NewPet
