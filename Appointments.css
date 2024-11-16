@@ -1,0 +1,64 @@
+/* Appointments.css */
+
+/* New Appointment Form */
+
+
+.appointments-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* Center horizontally */
+    justify-content: center;
+    /* Center vertically */
+    height: 90vh;
+    /* Ensure it takes the full height of the viewport */
+    text-align: center;
+}
+
+.appointments-header {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #730404;
+}
+
+.appointment-form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.appointment-form .form-group {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.appointment-form label {
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+.appointment-form input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+.appointment-form button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.appointment-form button:hover {
+    background-color: #0056b3;
+}

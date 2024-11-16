@@ -1,0 +1,68 @@
+/* client/src/pages/Home.css */
+
+/* Hero Section */
+.hero-section {
+    background-image: url('../assets/images/pic.jpg');
+    background-position: center center;
+    /* Align the image to the center */
+    background-size: cover;
+    /* Cover the section */
+    background-repeat: no-repeat;
+    /* Don't repeat the image */
+    padding: 100px 20px;
+    /* Padding for spacing */
+    text-align: center;
+    /* Center the text */
+}
+
+.hero-title {
+    font-size: 48px;
+    color: #291919 !important;
+    margin-bottom: 20px;
+}
+
+.hero-subtitle {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+.hero-btn {
+    background-color: #40a9ff;
+    border-color: #40a9ff;
+}
+
+/* Service Cards */
+.service-card {
+    text-align: center;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.service-card:hover {
+    border-color: #40a9ff;
+}
+
+/* Testimonials Section */
+blockquote {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+blockquote cite {
+    display: block;
+    font-size: 16px;
+    margin-top: 10px;
+    color: #888;
+}
+
+/* CTA Section */
+.cta-section {
+    background: #40a9ff;
+    padding: 50px 20px;
+    text-align: center;
+    margin-top: 50px;
+    border-radius: 8px;
+}

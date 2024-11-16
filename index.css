@@ -1,0 +1,32 @@
+
+
+/*common styling */
+
+.card-title{
+    font-size: 1.5rem;
+    font-weight: bold;
+
+}
+.normal-text{
+    font-size: 1rem;
+}
+
+.card{
+    box-shadow: 0 0 px gray;
+    border-radius: 0 !important;
+
+}
+
+
+/*authentication pages*/
+
+.authentication{
+    height:100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+authentication-form{
+    width: 400px;
+}
